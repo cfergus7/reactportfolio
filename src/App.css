@@ -37,14 +37,14 @@ h1 {
   display: inline-block;
 }
 
-.about__content {
+/* .about__content {
   max-width: 60%;
   font-family: 'Share Tech', sans-serif;
 }
 
 .about__skills {
   max-width: 20%;
-}
+} */
 
 .about__title {
   font-family: 'Share Tech', sans-serif;
@@ -61,12 +61,7 @@ i {
   margin: 1rem;
 }
 
-svg {
-  height: 50px;
-  width: 50px;
-}
-
-.dev-icon {
+/* .dev-icon {
   font-size: 3.5rem;
   margin: 1rem;
 }
@@ -74,7 +69,7 @@ svg {
 .devicon {
   font-size: 3.5rem;
   margin: 1rem;
-}
+} */
 
 .portfolio_container {
   text-align: center;
