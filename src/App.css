@@ -65,3 +65,12 @@ h1 {
   font-size: 3.5rem;
   margin: 1rem;
 }
+
+.portfolio_container {
+  text-align: center;
+  font-family: 'Share Tech', sans-serif;
+}
+
+#projects {
+  font-size: 64px;
+}
