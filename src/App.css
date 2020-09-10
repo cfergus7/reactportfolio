@@ -56,6 +56,16 @@ h1 {
   text-align: center;
 }
 
+i {
+  font-size: 3.5rem;
+  margin: 1rem;
+}
+
+svg {
+  height: 50px;
+  width: 50px;
+}
+
 .dev-icon {
   font-size: 3.5rem;
   margin: 1rem;
@@ -73,4 +83,12 @@ h1 {
 
 #projects {
   font-size: 64px;
+}
+
+.grid {
+  text-align: center;
+}
+
+.portfoliolinks {
+  font-family: 'Bad Script', cursive;
 }
