@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import Grid from '@material-ui/core/Grid';
 
 export default class About extends Component {
   componentDidMount() {
@@ -8,6 +9,8 @@ export default class About extends Component {
   render() {
     return (
       <section className="about">
+        <Grid container spacing={1}>
+        <Grid item xs={9}>
         <div className="container about__container">
           <div className="about__content">
             <h1 className="about__title">
@@ -28,6 +31,9 @@ export default class About extends Component {
               </Link>
             </div>
           </div>
+          </div>
+          </Grid>
+          <Grid item xs={3}>
           <div className="about__skills">
             <h3 className="skills__title">Tools Used</h3>
             <div className="skills__icons">
@@ -111,7 +117,8 @@ export default class About extends Component {
               <i class="devicon-heroku-original-wordmark colored"></i>
             </div>
           </div>
-        </div>
+        </Grid>
+        </Grid>
       </section>
     );
   }
