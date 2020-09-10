@@ -28,7 +28,7 @@ export default class Portfolio extends Component {
             <Grid item xs={4}>
               <Paper>
                 <Typography>
-                  <Link href="https://shielded-temple-94953.herokuapp.com/" color="inherit" target="_blank">Tool Next Door</Link>
+                  <Link className='portfoliolinks' href="https://shielded-temple-94953.herokuapp.com/" color="inherit" target="_blank">Tool Next Door</Link>
                 </Typography>
                 <div>
                 <Image src={nextDoorThumbnail}></Image>
@@ -39,7 +39,7 @@ export default class Portfolio extends Component {
             <Grid item xs={4}>
             <Paper>
                 <Typography>
-                  <Link href="https://pacific-basin-52237.herokuapp.com/" color="inherit" target="_blank">First Impression</Link>
+                  <Link className='portfoliolinks' href="https://pacific-basin-52237.herokuapp.com/" color="inherit" target="_blank">First Impression</Link>
                 </Typography>
                 <div>
                   <Image src={firstImpressionThumbnail} />
@@ -50,7 +50,7 @@ export default class Portfolio extends Component {
             <Grid item xs={4}>
               <Paper>
                 <Typography>
-                  <Link href="https://cfergus7.github.io/Mixer/" color="inherit" target="_blank">The Mixx</Link>
+                  <Link className='portfoliolinks' href="https://cfergus7.github.io/Mixer/" color="inherit" target="_blank">The Mixx</Link>
                 </Typography>
                 <div>
                   <Image src={theMixxThumbnail}></Image>
@@ -62,7 +62,7 @@ export default class Portfolio extends Component {
             <Grid item xs={4}>
               <Paper>
                 <Typography>
-                  <Link href="https://classique-moliere-19367.herokuapp.com/?id=5f108d9b1d74b60017ec75b5" color="inherit" target="_blank">Fitness Tracker</Link>
+                  <Link className='portfoliolinks' href="https://classique-moliere-19367.herokuapp.com/?id=5f108d9b1d74b60017ec75b5" color="inherit" target="_blank">Fitness Tracker</Link>
                 </Typography>
                 <div>
                   <Image src={fitnessTrackerThumbnail}></Image>
@@ -73,7 +73,7 @@ export default class Portfolio extends Component {
             <Grid item xs={4}>
               <Paper>
                 <Typography>
-                  <Link href="https://shielded-fjord-08208.herokuapp.com/" color="inherit" target="_blank">Budget Calculator</Link>
+                  <Link className='portfoliolinks' href="https://shielded-fjord-08208.herokuapp.com/" color="inherit" target="_blank">Budget Calculator</Link>
                 </Typography>
                 <div>
                   <Image src={budgetCalculatorThumbnail}></Image>
@@ -84,7 +84,7 @@ export default class Portfolio extends Component {
             <Grid item xs={4}>
               <Paper>
                 <Typography>
-                  <Link href="https://whispering-oasis-17117.herokuapp.com/" color="inherit" target="_blank">Note Taker</Link>
+                  <Link className='portfoliolinks' href="https://whispering-oasis-17117.herokuapp.com/" color="inherit" target="_blank">Note Taker</Link>
                 </Typography>
                 <div>
                   <Image src={noteTakerThumbnail}></Image>
@@ -95,7 +95,7 @@ export default class Portfolio extends Component {
             <Grid item xs={4}>
               <Paper>
                 <Typography>
-                  <Link href="https://arcane-wave-57289.herokuapp.com/" color="inherit" target="_blank">Eat Da Burger</Link>
+                  <Link className='portfoliolinks' href="https://arcane-wave-57289.herokuapp.com/" color="inherit" target="_blank">Eat Da Burger</Link>
                 </Typography>
                 <div>
                   <Image src={eatDaBurgerThumbnail}></Image>
